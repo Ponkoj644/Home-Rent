@@ -10,10 +10,10 @@ import Logo from "../assets/img/logo.png";
 const Header = () => {
   return (
     <header className="py-5 mb-12 border-b">
-      <div className="container mx-auto flex justify-between items-center ">
+      <div className="container mx-auto flex lg:flex-row justify-between items-center md: flex-col md: gap-4 ">
         {/* logo */}
         <Link to="/">
-          <img className=" sm: max-w-[200px]" src={Logo} alt="" />
+          <img className="md: max-w-[250px]" src={Logo} alt="" />
         </Link>
 
         {/* Buttons */}
